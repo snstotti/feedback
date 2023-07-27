@@ -61,7 +61,7 @@ const renderServicename =(keyService:string) =>{
     const servicevariant:IServiceName = {
         shop: "Магазин",
         delivery: "Доставка",
-        app: "Приложение",
+        application: "Приложение",
     }
    
     return servicevariant[keyService]
